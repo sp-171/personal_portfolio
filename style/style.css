@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Poppins-Thin';
+    src: url('style/Poppins/Poppins-Thin.ttf') format('trueType');
+}
+@font-face {
+    font-family: 'Poppins-ExtraLight';
+    src: url('style/Poppins/Poppins-ExtraLight.ttf') format('trueType');
+}
+@font-face {
+    font-family: 'Poppins-SemiBold';
+    src: url('style/Poppins/Poppins-SemiBold.ttf') format('trueType');
+}
+ .nameonhome {
+    font-family: 'Poppins-SemiBold';
+    font-size: 4vw;
+}
+.descriptionhome{
+    font-family: 'Poppins-Thin';
+}
+ nav {
+    font-family: 'Poppins-ExtraLight';
+    text-align: right;
+    word-spacing: 30px;
+    padding: 0px;
+ }
