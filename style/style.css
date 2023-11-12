@@ -17,6 +17,9 @@
 .descriptionhome{
     font-family: 'Poppins-Thin';
 }
+header{
+    background: burlywood;
+}
  nav {
     font-family: 'Poppins-ExtraLight';
     text-align: right;
