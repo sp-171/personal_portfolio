@@ -1,28 +1,53 @@
-@font-face {
+/* @font-face {
     font-family: 'Poppins-Thin';
-    src: url('style/Poppins/Poppins-Thin.ttf') format('trueType');
+    src: url('style/Poppins/Poppins-Thin.ttf') format('truetype');
+    font-weight: 100;
 }
 @font-face {
     font-family: 'Poppins-ExtraLight';
-    src: url('style/Poppins/Poppins-ExtraLight.ttf') format('trueType');
+    src: url('style/Poppins/Poppins-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
 }
 @font-face {
     font-family: 'Poppins-SemiBold';
-    src: url('style/Poppins/Poppins-SemiBold.ttf') format('trueType');
+    src: url('style/Poppins/Poppins-SemiBold.ttf') format('truetype');
+    font-weight: 600;
 }
- .nameonhome {
-    font-family: 'Poppins-SemiBold';
-    font-size: 4vw;
+@font-face {
+    font-family: 'Poppins-Black';
+    src: url('style/Poppins/Poppins-Black.ttf') format('truetype');
+    font-weight: 900; 
 }
-.descriptionhome{
-    font-family: 'Poppins-Thin';
-}
+*/
 header{
+    margin: 0;
     background: burlywood;
 }
  nav {
-    font-family: 'Poppins-ExtraLight';
+    font-family: 'Poppins';
     text-align: right;
     word-spacing: 30px;
-    padding: 0px;
+    padding: 10px;
+    background-color: thistle;
  }
+ main{
+    background: thistle;
+    margin: 0;
+ }
+ .namemain {
+    font-family: 'Poppins', sans-serif;
+    font-size: 70px;
+    font-weight: 800;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+.descriptionhome{
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 20px;
+    margin-left: 20%;
+}
+.namemain p,
+.descriptionhome p {
+    margin: 0;
+}
