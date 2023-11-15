@@ -19,19 +19,39 @@
     font-weight: 900; 
 }
 */
+#favicon {
+    width: 5px; /* Adjust the size as needed */
+    height: 5px;
+    border-radius: 50%; /* Create a circular appearance */
+}
 header{
     margin: 0;
     background: burlywood;
 }
- nav {
+nav {
     font-family: 'Poppins';
-    text-align: right;
     padding: 10px;
-    background-color: thistle;
+    background-color: burlywood;
+    float: right;
  }
  nav a{
     padding-right: 20px;
+    
  }
+header button{
+    margin-left: 20px;
+    padding: 10px;
+    width: 15%; 
+    height: 15%;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+header img {
+    margin-left: 20px;
+    padding: 10px;
+    width: 100%; 
+    height: 100%;
+}
  main{
     background: thistle;
     margin: 0;
