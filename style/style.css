@@ -1,13 +1,20 @@
-body{
-    background: rgb(98,7,9);
-}
 #favicon {
     width: 5px; /* Adjust the size as needed */
     height: 5px;
     border-radius: 50%; /* Create a circular appearance */
 }
 header{
-    margin: 0;
+    margin: 0px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: rgb(98,7,9);
+}
+header img {
+    margin-left: 5px;
+    padding: 5px;
+    width: 100%; 
+    height: 100%;
 }
 nav {
     font-family: 'Poppins';
@@ -20,6 +27,9 @@ nav {
     text-decoration: none;
     
  }
+ .navcontainer{
+    padding: 10px;
+ }
 .home-logo-button{
     margin-left: 10px;
     padding: 10px;
@@ -29,17 +39,22 @@ nav {
     background-color: rgba(255, 255, 255, 0);
     border: none;
 }
-header img {
-    margin-left: 5px;
-    padding: 5px;
-    width: 100%; 
-    height: 100%;
+body{
+    background: rgb(98,7,9);
+    margin: 0px;
 }
  main{
-    background: rgb(107, 34, 34);
-    margin: 0;
     color: rgb(181 195 244);
+    margin: 0px;
  }
+ section{
+    height: 100vh;
+}
+.container{
+    padding-top: 100px;
+}
+
+ /* Home Page */
  .namemain {
     font-family: 'Poppins', sans-serif;
     font-size: 70px;
@@ -55,8 +70,12 @@ header img {
 }
 .namemain p,
 .descriptionhome p {
-    margin: 0;
+    margin: 0px;
 }
+.descriptionhome{
+    margin-bottom: 0px;
+}
+/* About Me */
 .resumeContainer{
     width: 100%;
     overflow: auto;
@@ -71,15 +90,15 @@ header img {
     font-family: 'Poppins';
     font-weight: 300;
     color: white;
-    margin-left: 20;
-    margin-bottom: 0;
+    margin-left: 20px;
+    margin-bottom: 0px;
 }
 .resume h3 {
     text-align: left;
     font-family: 'Poppins';
     font-weight: 200;
-    margin-left: 40;
-    margin-top: 5;
+    margin-left: 40px;
+    margin-top: 5px;
 }
 .resume li {
     text-align: left;
@@ -87,5 +106,5 @@ header img {
     font-weight: 100;
     font-size: 14;
     color: white;
-    margin-left: 50;
+    margin-left: 50px;
 }
