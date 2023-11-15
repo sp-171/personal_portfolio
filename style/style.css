@@ -70,11 +70,16 @@ header img {
     text-align: left;
     font-family: 'Poppins';
     font-weight: 300;
+    color: white;
+    margin-left: 20;
+    margin-bottom: 0;
 }
 .resume h3 {
     text-align: left;
     font-family: 'Poppins';
     font-weight: 200;
+    margin-left: 40;
+    margin-top: 5;
 }
 .resume li {
     text-align: left;
@@ -82,4 +87,5 @@ header img {
     font-weight: 100;
     font-size: 14;
     color: white;
+    margin-left: 50;
 }
