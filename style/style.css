@@ -3,6 +3,7 @@
     height: 5px;
     border-radius: 50%; /* Create a circular appearance */
 }
+/* Header */
 header{
     margin: 0px;
     position: fixed;
@@ -16,6 +17,7 @@ header img {
     width: 100%; 
     height: 100%;
 }
+/* Navigation */
 nav {
     font-family: 'Poppins';
     padding: 10px;
@@ -39,6 +41,7 @@ nav {
     background-color: rgba(255, 255, 255, 0);
     border: none;
 }
+/* Formatting for whole */
 body{
     background: rgb(98,7,9);
     margin: 0px;
@@ -47,26 +50,31 @@ body{
     color: rgb(181 195 244);
     margin: 0px;
  }
- section{
-    height: 100vh;
-}
 .container{
-    padding-top: 100px;
+    /* padding top used to keep top of container below header */
+    padding-top: 100px; 
+}
+.section {
+    height: 100vh;
 }
 
  /* Home Page */
+ .homecontainer{
+    height: 100vh;
+ }
  .namemain {
     font-family: 'Poppins', sans-serif;
     font-size: 70px;
     font-weight: 800;
     margin-left: 20%;
-    margin-top: 10%;
+    margin-top: 15%;
 }
 .descriptionhome{
     font-family: 'Poppins';
     font-weight: 300;
     font-size: 20px;
     margin-left: 20%;
+    margin-bottom: 0;
 }
 .namemain p,
 .descriptionhome p {
@@ -79,6 +87,8 @@ body{
 .resumeContainer{
     width: 100%;
     overflow: auto;
+    margin: 0;
+    padding-top: 0;
 }
 .resumeContainer div{
     width: 50%;
@@ -108,3 +118,41 @@ body{
     color: white;
     margin-left: 50px;
 }
+
+/* Contact Page */
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 15px; 
+    border: 1px solid #000000; 
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 5px; 
+    margin-bottom: 10px; 
+    resize: vertical;
+  }
+  
+  /* Contact Form submit button */
+  input[type=submit] {
+    background-color: rgb(98,7,9);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Submit button hover, color change */
+  input[type=submit]:hover {
+    background-color: rgb(39, 2, 2);
+  }
+  .contactcontainer {
+    border-radius: 5px;
+    background-color: rgb(181 195 244);
+    padding: 20px;
+  }
+  .contactcontainer h2{
+    color: white;
+  }
+  .contact-title{
+    color: #000000;
+  }
