@@ -140,7 +140,7 @@ body{
     text-align: center;
     font-size: 50px;
 }
-
+/* set width to 60% */
 form {
     display: flex;
     flex-direction: column;
