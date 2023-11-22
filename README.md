@@ -1,7 +1,7 @@
 ##Sonia Parmar's Personal Portfolio Website
 
 ###Link to Personal Portfolio
-[github.io/sp-171/personal_portfolio](github.io/sp-171/personal_portfolio)
+[Link to Portfolio](github.io/sp-171/personal_portfolio)
 
 This portfolio is my personal portfolio. It includes relevant experience and projects.
 
