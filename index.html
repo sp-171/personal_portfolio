@@ -15,6 +15,14 @@
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet">
+
+        <style>
+            body {
+                background-image: url('images/blueandpinkabstract.jpg');
+                background-repeat: no-repeat;
+                background-size: 100% auto; 
+            }
+        </style>
     </head>
     <body>
         <header>
@@ -30,11 +38,10 @@
             <div class = "button">
                 <button class = "home-logo-button">
                     <a href = "/personal_portfolio/">
-                        <img src="images/sp-rblogo.png" alt="SP Navigation Logo">
+                        <img src="images/sp-bwlogo-transparent.png" alt="SP Navigation Logo">
                     </a>
                 </button>
             </div>
-            
             
         </header>
 
@@ -44,13 +51,12 @@
                 <div class="container">
                     <div class="homecontainer">
                         <div class = namemain>
-                            <p> Sonia Parmar </p>
+                            <p> Welcome. </p>
                         </div>
 
                         <div class = "descriptionhome">
-                            <p> Computer Engineering Student at Simon Fraser University 
-                                <br> 
-                            Seeking an 8 month internship beginning May 2024 
+                            <p> My name is Sonia Parmar. I am a Computer Engineering Student <br> 
+                                at Simon Fraser University seeking an 8 month internship. 
                             </p>
                         </div>
                     </div>
@@ -60,140 +66,138 @@
             <!-- About Me -->
             <section id="aboutme">
                 <div class = "container">
-                    <div class="aboutmecontainer">
-                        <div class="page-title"> About Me</div>
-                        <div class="resume">
-                            <h2> Technical Skills </h2>
-                            <div class = resumeContainer>
-                                <div>
-                                    <h3> Software</h3>
-                                        <ul>
-                                            <li>C, C++: Object Oriented Programming</li>
-                                            <li>MySQL, Python </li>
-                                            <li>HTML, CSS, JavaSript </li>
-                                            <li> MATLAB: Data Analysis</li>
-                                            <li> LTSpice</li>
-                                        </ul>
-                                </div>
-                
-                                <div>
-                                    <h3> Hardware</h3>
-                                        <ul>
-                                            <li> VHDL: Modelsim, Quartus Prime</li>
-                                            <li> FPGA Design </li>
-                                            <li> RISC-V</li>
-                                        </ul>
-                                </div>
+                    <div class="page-title"> About Me</div>
+                    <div class="aboutme-maincontainer">
+
+                        <div class="about_info">
+                            <h3 class="about-subtitle"> A little about me. </h3>
+                            <p> Greetings and welcome! I am a passionate computer engineering student <br>
+                                with a keen interest in learning and gaining hands-on experience to further <br>
+                                my knowledge.
+                            
+                            <br>
+                            <br>
+
+                                My background consists of software, hardware, and electrical projects, <br>
+                                each contributing to my well-rounded skill-set. I enjoy working on <br>
+                                challenging projects to build on my technical and hands-on skills.
+                            </p>
+                            <!-- <p> Hardware and Electronic Project Descriptions</p>
+                            <p>
+                                Using VHDL and an ALtera DE2-115 FPGA, I implemented combinational and  <br>
+                                sequential logic to design a functional vending machine and home alarm system.  <br>
+                                The vending machine performed various functions including change input, product  <br>
+                                dispensing, and owner override functionalities. The home alarm system made use  <br>
+                                of LEDs, keys, and switches to facilitate alarm control, and motion activation.
+                            </p>
+            
+                            <p>I have worked on are an AM Radio and a funtional push <br>
+                                button dice. For the AM radio I designed a schematic using various components <br>  
+                                including a operational amplifier and a handmade inductor. I verified functionality <br> 
+                                by connecting it to a power supply and an antenna. For the push button dice, I soldered <br>  
+                                multiple components onto the board. Functionality was verified using an oscilloscope.
+                            </p>
+                            <p>
+                                Checkout additional projects below. 
+                            </p> -->
+
+                        </div>
+
+                        <div class="about_skills">
+                            <h3 class="about-subtitle"> My Skills </h3>
+                            <div class="skills">
+                                <div class="skill-set">C</div>
+                                <div class="skill-set">C++</div>
+                                <div class="skill-set">Python</div>
+                                <div class="skill-set">MySQL</div>
+                                <div class="skill-set">MATLAB</div>
+                                <div class="skill-set">RISC-V</div>
+                                <div class="skill-set">FPGA Design</div>
+                                <div class="skill-set">VHDL</div>
+                                <div class="skill-set">Quartus Prime</div>
+                                <div class="skill-set">Solidworks</div>
+                                <div class="skill-set">HTML</div>
+                                <div class="skill-set">CSS</div>
+                                <div class="skill-set">JavaScript</div>
+                                <div class="skill-set">React.JS</div>
                             </div>
-                
-                            <h2> Work Experience </h3>
-                            <h3> Smith Cameron Group Process - January - May 2023 </h3>
-                                <ul>
-                                    <li> Developed a robust asset management database using MySQL and Python to efficiently oversee on-site customer assets </li>
-                                    <li>Engineered several Python scripts to extract and compile file-related data into an excel file, streamlining the information retrieval and reporting process </li> 
-                                    <li>Created an interactive information system with python that dynamically assembles compatible pumps based on user selections from the homepage, enhancing user experience and product compatibility </li>
-                                </ul>
-                
-                            <h2> Projects and Technical Background</h3>
-                            <h3> Software Background - September 2021 - August 2023 </h3>
-                                <ul>
-                                    <li> Developed a Student Admission System with user-driven linked list operations </li>
-                                    <li> Constructed a Calendar System that facilitates appointment booking, querying, and cancellation, all seamlessly executed in response to user input </li>
-                                </ul>
-                
-                            <h3> Hardware Background - May 2022 - August 2023 </h3>
-                                <ul>
-                                    <li> Implemented combinational and sequential logic to design a Vending Machine through VHDL with Altera DE2-115 FPGA </li>
-                                    <li> Engineered a functional Home Alarm System on a FPGA board making use of LEDs, keys, and switches to facilitate alarm control, and motion activation </li>
-                                    <li>Developed a RISC-V instruction emulator and disassembler using C </li>
-                                </ul>
-                
-                            <h3> Electrical Background - September 2021 - August 2023 </h3>
-                                <ul> 
-                                    <li> Designed a schematic for an AM Radio using various components including an operational amplifier and a handmade inductor. Verified functionality by connecting to a power supply and antenna </li>
-                                    <li> Designed BJT and MOSFET circuits on a breadboard, assessed their performance using an oscilloscope and function generator to ensure optimal functionality </li> 
-                                    <li> Developed and assessed notch filters, low-pass filters, and cascaded filters both through practical experimentation in the laboratory and simulation using LTSpice </li>
-                                    <li>Soldered components onto a board, creating a functional Push Button Dice, and verified sinusoidal wave performance with precision instruments </li>
-                                </ul>
-                        
-                
-                            <h2> Education </h2>
-                                <h3> Simon Fraser University, Burnaby, BC, Canada </h3> 
-                                <ul>
-                                    <li>Bachelor of Applied Science in Computer Engineering </li>
-                                    <li>Expected Graduation Date : August 2025 </li>
-                                </ul>
-                                <h3>Langara College, Vancouver, BC, Canada - September 2020 - August 2021 </h3>
                         </div>
                     </div>
+
                 </div>
             </section>
 
             <!-- Portfolio -->
-            <section id = "portfolio">
-                <div class = "container">
-                    <div class="portfoliocontainer">
-                        <div class="page-title">My Portfolio</div>
-                        <div class="box-wrapper">
-                            <div class="box">
-                                <a href="https://github.com/sp-171/Simple-Calendar-System">
-                                    <img src="images/calendar.png">
-                                    <h2> Simple Calendar System </h2>
-                                    <p> This simple calendar system can book, query, and delete appointments.</p>
-                                </a>
+            <section id="portfolio">
+                <div class="contianer">
+                    <div class="page-title">My Portfolio</div>
+                    <div class="portfolio-maincontainer">
+
+                        <div class="project-row">
+                            <div class="project-row-img-cont">
+                                <img src="images/calendar.png">
                             </div>
 
-                            <div class="box">
-                                <a href="https://github.com/sp-171/Graduate-Student-Admission-System">
-                                    <img src="images/tools.png">
-                                    <h2> Graduate Student Admission System </h2>
-                                    <p> This project implements a fully functional student admision system in the terminal.</p>
-                                </a>
-                            </div>
-
-                            <div class="box">
-                                <a href="https://github.com/sp-171/ENSC251-LAB4-Stack">
-                                    <img src="images/stack.png">
-                                    <h2> Stack Class </h2>
-                                    <p> This project consists of implementing the stack class and generalizing it using templates.</p>
-                                </a>
+                            <div class="project-row-cont">
+                                <h3 class="project-row-cont-title"> Simple Calendar System </h3>
+                                <p class="project-row-cont-descrip">
+                                    A simple terminal based calendar system for booking, querying, and deleting 
+                                    appointments. Dates range from May 9, 2022, to Aug 8, 2022. No weekend or
+                                    holiday appointments allowed. Time is in 24-hour format, with slots at 
+                                    30-minute intervals.
+                                </p>
+                            <a class="project-row-cont-git-button" href="https://github.com/sp-171/Simple-Calendar-System">Link to Github Source Code</a>
                             </div>
                         </div>
+
+                        <div class="project-row">
+                            <div class="project-row-img-cont">
+                                <img src="images/tools.png">
+                            </div>
+
+                            <div class="project-row-cont">
+                                <h3 class="project-row-cont-title"> Graduate Student Admission System </h3>
+                                <p class="project-row-cont-descrip">
+                                    A fully functional student admission system implemented in the terminal using 
+                                    linked lists. Features include creating, searching, sorting, and deleting students,
+                                    merging domestic and international student lists, and updating CGPA and research scores. 
+                                    No graphical user interface; the program can be run using 'make' and './main' commands. 
+                                </p>
+                            <a class="project-row-cont-git-button" href="https://github.com/sp-171/Graduate-Student-Admission-System">Link to Github Source Code</a>
+                            </div>
+                        </div>
+
+
                     </div>
                 </div>
             </section>
 
             <section id = "contact">
-                <div class="container">
-                    <div class = "contactcontainer">
-                        <div class="page-title"> Contact Me </div>
-                        <form action="action_page.php" method="post">
-                      
-                            <div class="row">
-                                <label for="fname">First Name</label>
-                                <input type="text" id="fname" name="firstname" placeholder="Your name">
-                            </div>
+                <div class="contact-wholecontainer">
+                    <div class="page-title"> Contact</div>
+                    <div class = "contact-maincontainer">
+                        <div class="contact-form-container">
+                            <form action="">
 
-                            <div class="row">
-                                <label for="lname">Last Name</label>
-                                <input type="text" id="lname" name="lastname" placeholder="Your last name">
-                            </div>
+                                <div class="contact-form-field">
+                                    <label class="contact-form-label" for="name">Name</label>
+                                    <input required placeholder="Enter Your Name" type="text" class="contact-form-input" name="name" id="name">
+                                </div>
 
-                            <div class="row">
-                                <label for="email">Email</label>
-                                <input type = "text" id="email" name="email" placeholder="Your email">
-                            </div>
+                                <div class="contact-form-field">
+                                    <label class="contact-form-label" for="email">Email</label>
+                                    <input required placeholder="Enter Your Email" type="text" class="contact-form-input" name="email" id="email">
+                                </div>
 
-                            <div class="row">
-                                <label for="subject">Subject</label>
-                                <textarea id="subject" name="subject" placeholder="Write something..." style="height:200px"></textarea>
-                            </div>
-                            
-                            <div class="row">
-                                <input type="submit" value="Submit"> 
-                            </div>
-                      
-                        </form>
+                                <div class="contact-form-field">
+                                    <label class="contact-form-label" for="message">Message</label>
+                                    <textarea required="" cols="20" rows="5" class="contact-form-input" placeholder="Enter Your Message" name="message" id="message"></textarea>
+                                </div>
+
+                                <button type="submit" class="contact-form-submit-button">Submit</button>
+
+                            </form>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -201,22 +205,16 @@
 
         <footer>
             <div class="footer">
-                <div class="footertop">
+                <!-- <div class="footertop">
                     <div class="footercontainer">
                         <a href="https://github.com/sp-171">
                             <img src="images/github.png">
                         </a>
                     </div>
-
-                    <div class="footercontainer">
-                        <a href="https://www.sfu.ca/">
-                            <img src="images/sfu.png">
-                        </a>
-                    </div>
-                </div>
+                </div> -->
                 
-                <div class="footerbottom">
-                    <p> Copyright Sonia Parmar 2023</p>
+                <div class="footer-bottom">
+                    <p> © Copyright 2023. Made by Sonia Parmar</p>
                 </div>
                 
             </div>
