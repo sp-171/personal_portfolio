@@ -177,7 +177,10 @@
                     <div class="page-title"> Contact</div>
                     <div class = "contact-maincontainer">
                         <div class="contact-form-container">
-                            <form action="https://formsubmit.co/sonia_parmar17@icloud.com" method="POST">
+                            <form id="contact-form" method="POST">
+
+                                <input type="hidden" name="_captcha" value="false">
+                                <input type="hidden" name="_next" value="https://sp-171.github.io/personal_portfolio/">
 
                                 <div class="contact-form-field">
                                     <label class="contact-form-label" for="name">Name</label>
@@ -197,6 +200,22 @@
                                 <button type="submit" class="contact-form-submit-button">Submit</button>
 
                             </form>
+
+                            <script>
+                                document.addEventListener('DOMContentLoaded', function () {
+                                    var emailDomain = 'icloud';
+                                    var emailTLD = 'com';
+                        
+                                    // Construct the email address
+                                    var emailAddress = 'sonia_parmar17@' + emailDomain + '.' + emailTLD;
+                        
+                                    // Set the value of the hidden input field
+                                    document.getElementById('email').value = emailAddress;
+                        
+                                    // Set the form action dynamically
+                                    document.getElementById('contact-form').action = 'https://formsubmit.co/' + emailAddress;
+                                });
+                            </script>
                         </div>
                     </div>
                 </div>
