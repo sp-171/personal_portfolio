@@ -5,9 +5,10 @@
 } */
 #aboutme{
     background-image: url('../images/color-hex.jpg');
-    background-repeat: no-repeat;
-    background-size: 100% auto; 
+    /* background-repeat: no-repeat;
+    background-size: 100% auto;  */
     background-attachment: fixed; 
+    background-position: center top;
 }
 #portfolio{
     background-image: url('../images/blueandpinkabstract.jpg');
@@ -281,10 +282,13 @@ body{
 
 
 /* Footer ---------------------------------------------- */
-@media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-    }
 footer{
     text-align: center;
+}
+
+
+@media screen and (max-width: 767px) {
+    #aboutme {
+        background-attachment: scroll;
+    }
 }
