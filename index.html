@@ -207,9 +207,10 @@
                                 var sevent = '17';
                                 var under = '_'
                                 var domain = 'icloud'
-                                var TLD = 'com'
+                                var TLD = 'com';
+                                var at = '@'
                                 document.addEventListener('DOMContentLoaded', function () {
-                                    var emailAddress = fn + under + ln + sevent + emailDomain + '.' + TLD;
+                                    var emailAddress = fn + under + ln + sevent + at + domain + '.' + TLD;
                                     document.getElementById('contact-form').action = "https://formsubmit.co/" + emailAddress;
                                 });
                             </script>
