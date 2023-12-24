@@ -202,17 +202,14 @@
                             </form>
 
                             <script>
+                                var fn = 'sonia';
+                                var ln = 'parmar';
+                                var sevent = '17';
+                                var under = '_'
+                                var domain = 'icloud'
+                                var TLD = 'com'
                                 document.addEventListener('DOMContentLoaded', function () {
-                                    var emailDomain = 'icloud';
-                                    var emailTLD = 'com';
-                        
-                                    // Construct the email address
-                                    var emailAddress = 'sonia_parmar17@' + emailDomain + '.' + emailTLD;
-                        
-                                    // Set the value of the hidden input field
-                                    document.getElementById('email').value = emailAddress;
-                        
-                                    // Set the form action dynamically
+                                    var emailAddress = fn + under + ln + sevent + emailDomain + '.' + TLD;
                                     document.getElementById('contact-form').action = "https://formsubmit.co/" + emailAddress;
                                 });
                             </script>
