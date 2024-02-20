@@ -11,7 +11,8 @@
     background-position: center top;
 }
 #portfolio{
-    background-image: url('../images/blueandpinkabstract.jpg');
+    /* background-image: url('../images/blueandpinkabstract.jpg'); */
+    background-image: url('../images/color-hex.jpg');
     background-repeat: no-repeat;
     background-size: 100% auto; 
 }
@@ -167,19 +168,26 @@ body{
 }
 .about_info p{
     background-color: rgba(255, 255, 255, 0.136);
-    padding: 20px;
     border-radius: 10px;
+    padding: 0.8rem;
 }
+
+.about_info{
+    width: 95%;
+}
+
 .about-subtitle{
     color: white;
+
 }
+
 .aboutme-maincontainer{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1rem;
     margin-left: 20px;
-    padding-bottom: 200px;
-    padding-top: 50px;
+    padding-bottom: 7rem;
+    padding-top: 1.5rem;
     margin-top: 0px;
     margin-bottom: 0px;
 }
@@ -189,8 +197,8 @@ body{
 }
 .skill-set{
     padding: 1rem 2rem;
-    margin-bottom: 1.5rem;
-    margin-right: 1.2rem;
+    margin-bottom: 0.5rem;
+    margin-right: 0.5rem;
     background: rgba(255, 255, 255, 0.217);
     border-radius: 20px;
 }
@@ -284,7 +292,7 @@ body{
     width: 92%;
 }
 .contact-maincontainer{
-    background: grey;
+    background: rgba(128, 128, 128, 0.528);
     padding-top: 1.5rem;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -312,7 +320,7 @@ body{
     width: 90%;
     border: 1px solid white;
     font-size: 1rem;
-    background: darkgrey;
+    background: rgba(169, 169, 169, 0.506);
     border-radius: 5px;
     font-weight: 300;
 }
@@ -322,13 +330,15 @@ body{
     padding: 1rem;
     width: 30%;
     /* margin: 1rem; */
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.537);
     color: white;
     transition: transform .3s;
     border-radius: 20px;
+    border-color: rgba(0, 0, 0, 0.537);
 }
 .contact-form-submit-button:hover{
     transform: scale(1.03);
+    background-color: black;
     /* box-shadow: 0px 0px 15px white; */
 }
 
