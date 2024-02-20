@@ -1,26 +1,48 @@
-/* #home{
-    background-image: url('../images/geo-background.jpg');
-    background-repeat: no-repeat;
-    background-size: 100% auto; 
-} */
+#home{
+    /* background-image: url('../images/geo-background.jpg'); */
+    /* background-repeat: no-repeat;
+    background-size: 100% auto;  */
+
+    background-attachment: fixed; 
+    background-position: center top;
+    
+
+}
 #aboutme{
     background-image: url('../images/color-hex.jpg');
     /* background-repeat: no-repeat;
     background-size: 100% auto;  */
     background-attachment: fixed; 
     background-position: center top;
+    /* border: 1px solid white; Add white border */
 }
 #portfolio{
     /* background-image: url('../images/blueandpinkabstract.jpg'); */
     background-image: url('../images/color-hex.jpg');
-    background-repeat: no-repeat;
-    background-size: 100% auto; 
+    /* background-repeat: no-repeat;
+    background-size: 100% auto;  */
+
+    background-attachment: fixed; 
+    background-position: center top;
+    /* border: 1px solid white; Add white border */
+}
+
+.footer{
+    background-image: url('../images/color-hex.jpg');
+    /* background-repeat: no-repeat;
+    background-size: 100% auto;   */
+
+    background-attachment: fixed; 
+    background-position: center top;
 }
 
 #contact{
     background-image: url('../images/color-hex.jpg');
-    background-repeat: no-repeat;
-    background-size: 100% auto; 
+    /* background-repeat: no-repeat;
+    background-size: 100% auto;  */
+
+    background-attachment: fixed; 
+    background-position: center top;
 }
 
 #favicon {
@@ -30,15 +52,15 @@
 }
 /* Header ---------------------------------------*/
 header{
-    margin: 0px;
+    margin: 0;
     position: fixed;
     width: 100%;
     top: 0;
     /* background: white; */
 }
 header img {
-    margin-left: 5px;
-    padding: 5px;
+    margin-left: 0.5rem;
+    padding: 0.5rem;
     width: 100%; 
     height: 100%;
 }
@@ -46,11 +68,11 @@ header img {
 nav {
     font-family: 'Poppins';
     font-weight: 800;
-    padding: 15px;
+    padding: 1rem;
     float: right;
  }
  nav a{
-    padding-right: 20px;
+    padding-right: 1.5rem;
     color: white;
     text-decoration: none; 
  }
@@ -59,36 +81,35 @@ nav a:hover{
     color: rgba(181, 195, 244, 0.404);
  }
  .navcontainer{
-    padding: 10px;
+    padding: 1rem;
  }
  .button{
-    margin-bottom: 0px;
+    margin-bottom: 0;
  }
 .home-logo-button{
-    margin-left: 10px;
-    padding: 10px;
-    padding-top: 0px;
-    width: 150px; 
+    margin-left: 0rem;
+    padding: 1rem;
+    padding-top: 0;
+    width: 10rem; 
     height: auto;
     background-color: rgba(255, 255, 255, 0);
     border: none;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 /* Formatting for whole ---------------------------------------*/
 body{
     background: black;
     color: white;
-    margin: 0px;
+    margin: 0;
     font-family: 'Poppins';
 }
  main{
     color: rgb(181 195 244);
-    margin: 0px;
+    margin: 0;
  }
 .container{
     /* padding top used to keep top of container below header */
-    /* padding-top: 150px;  */
-    padding-left: 10px;
+    padding-left: 1rem;
 }
 .section {
     height: 100vh;
@@ -104,8 +125,8 @@ body{
     margin-left: 20%;
     padding-top: 1rem;
     /* text-align: left; */
-    margin-bottom: 0px;
-    margin-top: 0px;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 .descriptionhome{
     font-family: 'Poppins';
@@ -116,7 +137,7 @@ body{
 }
 .namemain p,
 .descriptionhome p {
-    margin: 0px;
+    margin: 0;
 }
 .icon-container-col {
     display: flex;
@@ -131,15 +152,14 @@ body{
 .social-button{
     border: none;
     background: none;
-    /* padding-top: 0.25rem; */
-    box-shadow: 0 5px 15px 0 rgba(155, 32, 32, 0.15);
+    box-shadow: 0 0.5rem 2rem 0 rgba(155, 32, 32, 0.15);
     transition: transform .3s;
 }
 
 .social-button img{
-    width: 50px;
-    height: 50px;
-    padding: 0px;
+    width: 3rem;
+    height: 3rem;
+    padding: 0;
 }
 
 .social-button a {
@@ -150,7 +170,6 @@ body{
 
 .social-button:hover{
     transform: scale(1.20);
-    /* box-shadow: 0px 0px 15px white; */
 }
 
 
@@ -163,12 +182,12 @@ body{
     color: white;
     font-size: 30px;
     text-align: center;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .about_info p{
     background-color: rgba(255, 255, 255, 0.136);
-    border-radius: 10px;
+    border-radius: 1rem;
     padding: 0.8rem;
 }
 
@@ -185,11 +204,11 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1rem;
-    margin-left: 20px;
+    margin-left: 2rem;
     padding-bottom: 7rem;
     padding-top: 1.5rem;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .skills{
     display: flex;
@@ -200,17 +219,17 @@ body{
     margin-bottom: 0.5rem;
     margin-right: 0.5rem;
     background: rgba(255, 255, 255, 0.217);
-    border-radius: 20px;
+    border-radius: 1rem;
 }
 
 /* Portfolio Page ---------------------------------------*/
 .portfolio-maincontainer{
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-top: 50px;
-    padding-bottom: 130px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 4rem;
+    padding-bottom: 10rem;
 }
 .project-row{
     display: grid;
@@ -221,14 +240,14 @@ body{
 }
 
 .project-row-img-cont {
-    width: 120px;
-    height: 120px; 
+    width: 8rem;
+    height: 8rem; 
     overflow: hidden;
     border-radius: 5%;
     margin-left: 10%;
-    margin-right: 0px;
-    padding: 0px;
-    margin-bottom: 20px;
+    margin-right: 0;
+    padding: 0;
+    margin-bottom: 2rem;
     
     background-color: rgba(255, 255, 255, 0.181);
     display: flex;
@@ -251,13 +270,13 @@ body{
 .project-row-cont-title{
     color: white;
     margin: 0;
-    padding: 5px;
+    padding: 0.5rem;
 }
 .project-row-cont-descrip{
     background-color: rgba(255, 255, 255, 0.136);
-    padding: 10px;
-    border-radius: 10px;
-    margin: 0;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-top: 0;
 }
 .project-row-cont-git-button{
     background-color: rgba(128, 128, 128, 0.642);
@@ -265,27 +284,22 @@ body{
     font-family: 'Poppins';
     font-weight: 800;
     text-decoration: none;
-    /* padding: 1rem 2rem; */
     padding-top: 1rem;
     padding-bottom: 1rem;
-    border-radius: 10px;
+    border-radius: 1rem;
     display: block;
     width: 100%;
-    margin: 0px 0px 5px 0px;
-    /* box-shadow: 0 5px 15px 0 rgba(155, 32, 32, 0.15); */
+    margin: 0 0 0.5rem 0;
     transition: transform .3s;
-    /* align-items: center;
-    justify-content: center; */
     text-align: center;
 }
 .project-row-cont-git-button:hover{
     transform: scale(1.03);
-    /* box-shadow: 0px 0px 15px white; */
 }
 
 /* Contact Page ---------------------------------------*/
 .contact-wholecontainer{
-    padding-bottom: 100px;
+    padding-bottom: 10rem;
     font-family: 'Poppins';
     max-width: 120rem;
     margin: auto;
@@ -299,7 +313,7 @@ body{
     margin-top: 1rem;
     padding-bottom: 2rem;
     text-align: right;
-    border-radius: 5px;
+    border-radius: 0.5rem;
     
 }
 .contact-form-field{
@@ -309,7 +323,7 @@ body{
     color: white;
     font-size: 1rem;
     font-weight: 800;
-    margin: 5px;
+    margin: 0.5rem;
     display: block;
     text-align: left;
 }
@@ -318,10 +332,10 @@ body{
     color: black;
     padding: 1rem;
     width: 90%;
-    border: 1px solid white;
+    border: 0.1rem solid white;
     font-size: 1rem;
     background: rgba(169, 169, 169, 0.506);
-    border-radius: 5px;
+    border-radius: 0.5rem;
     font-weight: 300;
 }
 .contact-form-submit-button{
@@ -333,24 +347,29 @@ body{
     background-color: rgba(0, 0, 0, 0.537);
     color: white;
     transition: transform .3s;
-    border-radius: 20px;
+    border-radius: 1rem;
     border-color: rgba(0, 0, 0, 0.537);
 }
 .contact-form-submit-button:hover{
     transform: scale(1.03);
     background-color: black;
-    /* box-shadow: 0px 0px 15px white; */
 }
 
 
 /* Footer ---------------------------------------------- */
-footer{
+.footer{
     text-align: right;
-    margin: 10px;
+    margin: 0;
+    padding: 0;
+    /* background-color: white; */
+}
+.footer-bottom p{
+    padding: 1rem;
 }
 
+
 @media screen and (max-width: 767px) {
-    #aboutme {
+    #home {
         background-attachment: scroll !important;
     }
 }
