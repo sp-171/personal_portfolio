@@ -349,9 +349,8 @@ footer{
     margin: 10px;
 }
 
-
 @media screen and (max-width: 767px) {
     #aboutme {
-        background-attachment: scroll;
+        background-attachment: scroll !important;
     }
 }
